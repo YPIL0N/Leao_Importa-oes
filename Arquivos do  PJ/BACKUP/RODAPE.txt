@@ -1,0 +1,50 @@
+.rodape {
+  flex: none;
+  text-align: center;
+  height: 150px;
+  padding: 15px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.rodapeimage {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.txt_rodape {
+  font-size: 15px;
+  color: black;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.div_rodape {
+  display: flex;
+
+  justify-content: space-between;
+  flex: 1;
+}
+
+.div_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_text li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}

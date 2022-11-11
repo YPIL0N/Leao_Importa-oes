@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>leão importações</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-40MPNQCVBK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-40MPNQCVBK');
+</script>
+</head>
+
+<body>
+
+    <header>
+
+        <span class="logo">
+            <a href="#"><img src="img/logo.svg" alt="">
+            <a href="#" id="nome">Leão importações</a>
+        </span>
+
+        <nav class="nav" id="nav">
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+              </button>
+
+            <ul class="opcoes" id="menu" role="menu">
+                <li class="teste"><a href="produtos.html">Produtos</a></li>
+                <li class="teste"><a href="#" >Sobre</a></li>
+                <li class="teste"><a id="contatos" href="#contato">Contatos</a></li>
+                <li class="teste"><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+            </ul>
+
+            <div class="opcoes2">
+                <a href="#" ><img src="img/Instagram.png" alt="instagram" class="insta"></a>
+                <input type="text" name="" id="pesquisa">
+                
+            </div>
+
+        </nav>
+
+    </header>
+    </header>
+
+    <main>
+
+        <section id="container-perguntas">
+            <div class="details_container">
+
+                <details class="details">
+                    <summary>
+                        <div>
+                            <img src="img/icons8-user-48.png" alt="">
+                        </div>Qual o prazo de entrega <br> dos produtos?
+                    </summary>
+                    <p class="txt">R: De 15 a 25 dias, podendo ser entregue antes.</p>
+                </details>
+
+
+                <details class="details">
+                    <summary>
+                        <div>
+                            <img src="img/icons8-user-48.png" alt="">
+                        </div>Os produtos são originais?
+                    </summary>
+                    <p class="txt">R: Sim! Todos os produtos vendidos e entregues por nosssa loja são originais e com certificado próprio <br> das marcas.</p>
+                </details>
+
+
+                <details class="details">
+                    <summary>
+                        <div>
+                            <img src="img/icons8-user-48.png" alt="">
+                        </div>A loja parcela através <br> de boleto?
+                    </summary>
+                    <p class="txt">R: Não! Os parcelamentos são feitos apenas através <br> de cartão de crédito, podendo ser parcelados em até <br> 12x dependendo do produto.</p>
+                </details>
+
+
+                <details class="details">
+                    <summary>
+                        <div>
+                            <img src="img/icons8-user-48.png" alt="">
+                        </div>Os produtos tem garantia?
+                    </summary>
+                    <p class="txt">R: Todos os produtos possuem garantia de 3 meses pela loja,<br> e iPhones lacrados possuem 1 ano de garantia pela própria Apple.</p>
+                </details>
+
+                <details class="details">
+                    <summary>
+                        <div>
+                            <img src="img/icons8-user-48.png" alt="">
+                        </div>Como funciona as entregas?
+                    </summary>
+                    <p class="txt">R: Entregamos pessoalmente em Sorocaba e enviamos para todo <br> Brasil através dos principais correios.</p>
+                </details>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="div_rodape">
+
+            <div class="container-selos">
+                <img class="rodapeimage" src="img/sb.png" alt="">
+            </div>
+            
+            <div class="div_text">
+                <ul class="txt_rodape" id="contato">
+                    <li>
+                        Redes Sociais: @LeãoImportações</li>
+
+                    <li>
+                        Contatos: (15)90000-0000</li>
+
+                    <li>
+                        Email: leõesimportados@gmail.com</li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+#container-sobre {
+  margin-top: 90px;
+
+  margin-left: 20vw;
+
+  max-width: 900px;
+
+  box-shadow: 0px 0px 8px gold;
+
+  border: solid gold 2px;
+
+  margin-bottom: 15px;
+}
+
+#container-sobre h2 {
+  padding: 20px;
+
+  color: gold;
+}
+
+#container-sobre p {
+  font-size: 20px;
+
+  padding: 20px;
+
+  color: gold;
+}
+
+@media (max-width: 1200px) {
+  #container-sobre {
+    margin-left: 5vw;
+  }
+}
